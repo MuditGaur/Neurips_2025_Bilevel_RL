@@ -1,0 +1,22 @@
+name: mrn
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pytorch=1.4.0
+  - cudatoolkit=10.1
+  - absl-py
+  - pyparsing
+  - bazel
+  - pip
+  - pip:
+    - termcolor
+    - git+https://github.com/deepmind/dm_control.git@python3.6_eol
+    - tb-nightly
+    - imageio
+    - imageio-ffmpeg
+    - git+https://github.com/facebookresearch/hydra@0.11_branch
+    - matplotlib
+    - glfw==1.11.2
+    - scikit-image
+
